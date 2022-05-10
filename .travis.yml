@@ -1,7 +1,6 @@
 sudo: required
 services:
   - docker
-
 before_install:
   - docker build -t asma602/docker-react -f Dockerfile.dev .
 script:
